@@ -187,4 +187,4 @@ echo -e "${GREEN}Executing: python3 main.py $ARGS${NC}"
 echo ""
 
 # Execute the command
-eval "python3 main.py $ARGS"  echo "
+eval "python3 main.py $ARGS"
