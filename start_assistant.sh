@@ -35,12 +35,12 @@ if [[ "$1" == "--help" || "$1" == "-h" ]]; then
     echo "  --interactive, -i           Start in interactive mode"
     echo "  --reset, -r                 Reset logs and start fresh"
     echo "  --session=ID, -s ID         Continue a specific session"
-    echo "  --prompt=TEXT, -p TEXT      Provide an initial prompt"
-  --base-prompt=TEXT, -b TEXT   Set the base prompt for all interactions"
-  --max-calls=N, -m N          Maximum number of API calls (default: 20)"
-  --temp=N, -t N               Temperature setting (0.0-1.0, default: 0.7)"
-  --list-sessions, -l          List available sessions"
-  
+echo "  --prompt=TEXT, -p TEXT      Provide an initial prompt"
+echo "  --base-prompt=TEXT, -b TEXT   Set the base prompt for all interactions"
+echo "  --max-calls=N, -m N          Maximum number of API calls (default: 20)"
+echo "  --temp=N, -t N               Temperature setting (0.0-1.0, default: 0.7)"
+echo "  --list-sessions, -l          List available sessions"
+
 echo -e "${GREEN}Examples:${NC}"
 echo "  ./start_assistant.sh --interactive"
 echo "  ./start_assistant.sh --prompt=\"Create a hello world script\""

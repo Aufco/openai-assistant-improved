@@ -23,7 +23,7 @@ fi
 
 # Install required Python packages
 echo -e "\033[1;33mInstalling required Python packages...\033[0m"
-pip3 install openai python-dotenv requests tqdm colorama readline sqlite3 --break-system-packages
+pip3 install openai python-dotenv requests tqdm colorama --break-system-packages
 
 # Create project structure
 echo -e "\033[1;33mSetting up project structure...\033[0m"

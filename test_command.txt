@@ -1,0 +1,5 @@
+echo "Hello from the OpenAI Assistant!"
+ls -la
+echo "Current directory: $(pwd)"
+echo "Current user: $(whoami)"
+echo "System information: $(uname -a)"
